@@ -17,14 +17,27 @@ The analysis focuses on long-term trends in temperature and rainfall, and highli
 - Visual Studio Code
 
 ## 📊 Key Visualizations
+
 1. **Yearly Average Temperatures (2015–2024)**  
    → Line chart showing trends in yearly Avg Max / Min Temperatures  
+   ![Yearly Avg Temp](images/1_yearly_avg_temp.png)
+
 2. **Yearly Total Rainfall (2015–2024)**  
    → Bar chart showing total annual rainfall  
-3. **Monthly Average Temperatures & Rainfall**  
-   → Seasonal pattern visualized over 10 years  
-4. **2022 Monthly Rainfall Breakdown**  
-   → Abnormally high rainfall leading to major flooding
+   ![Yearly Rainfall](images/2_yearly_total_rainfall.png)
+
+3. **Monthly Average Temperatures (2015–2024)**  
+   → Clear seasonal temperature pattern over 10 years  
+   ![Monthly Avg Temp](images/3_monthly_avg_temp.png)
+
+4. **Monthly Average Rainfall (2015–2024)**  
+   → Seasonal rainfall trends visualized over a decade  
+   ![Monthly Rainfall](images/4_monthly_avg_rainfall.png)
+
+5. **Monthly Rainfall in 2022**  
+   → Unusually high rainfall observed in February; potential cause of flooding  
+   ![Rainfall 2022](images/5_rainfall_2022.png)
+
 
 ## 📈 Insights Summary
 
@@ -51,11 +64,11 @@ brisbane-climate-analysis/
 │ └── brisbane_climate_2015_2024.csv
 │
 ├── images/
-│ ├── 1. yearly_avg_temp.png
-│ ├── 2. yearly_total_rainfall.png
-│ ├── 3. monthly_avg_temp.png
-│ ├── 4. monthly_avg_rainfall.png
-│ └── 5. rainfall_2022.png
+│ ├── 1_yearly_avg_temp.png
+│ ├── 2_yearly_total_rainfall.png
+│ ├── 3_monthly_avg_temp.png
+│ ├── 4_monthly_avg_rainfall.png
+│ └── 5_rainfall_2022.png
 │
 ├── analysis/
 │ └── climate_analysis.py
