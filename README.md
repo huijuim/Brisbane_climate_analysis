@@ -38,7 +38,6 @@ The analysis focuses on long-term trends in temperature and rainfall, and highli
    → Unusually high rainfall observed in February; potential cause of flooding  
    ![Rainfall 2022](images/5_rainfall_2022.png)
 
-
 ## 📈 Insights Summary
 
 - 🔥 **Stable Temperature Trends**  
@@ -56,6 +55,20 @@ The analysis focuses on long-term trends in temperature and rainfall, and highli
 
 - 📌 **Why It Matters**  
   Long-term climate data is essential for understanding patterns, preparing for extreme events, and making informed decisions in city planning and disaster management.
+
+## 🔍 Analysis Process
+
+1. Collected historical temperature and rainfall data from BOM (2015–2024)
+2. Cleaned and structured data manually using Numbers and CSV export
+3. Used pandas for aggregation (groupby) and matplotlib for all visualizations
+4. Investigated anomalies using grouped monthly views and confirmed causes via external sources (BOM/ABC News)
+
+## 📌 Key Findings
+
+- 📅 Hottest year: 2019 (Avg Max Temp: 28.3°C)
+- 🌧 Wettest year: 2022 (Total Rainfall: 2,112 mm)
+- ❗ Rainiest month: February 2022 (Rainfall: 882 mm)
+- ❄️ Dryest month on average: August
 
 ## 📁 Folder Structure
 brisbane-climate-analysis/
@@ -76,3 +89,5 @@ brisbane-climate-analysis/
 ├── README.md
 └── requirements.txt
 
+## 📚 Data Source
+BOM - Brisbane Climate Averages
